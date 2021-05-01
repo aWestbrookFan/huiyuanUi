@@ -1,19 +1,18 @@
 # hyui
 
-> hy软件公司ui
+> hy软件公司ui框架
 
-## Build Setup
+## 使用
 
-``` bash
-# install dependencies
-npm install
+```
+# 下载依赖
+npm install hyui
 
-# serve with hot reload at localhost:8080
+# vue main.js 里面使用
+import hyui from 'hyui'
+Vue.use(hyui)
+import 'hyui/packages/css/style.scss
+
+# 页面中使用 / 在package.json里面进行查看即可
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
