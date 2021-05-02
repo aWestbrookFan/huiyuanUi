@@ -22,7 +22,8 @@ body {
     left: 0;
     bottom: 0;
     overflow-x: hidden;
-    overflow-y: auto
+    overflow-y: hidden;
+    box-shadow: 7px 5px 10px #ddd;
   }
 
   .content {
@@ -39,6 +40,7 @@ body {
   padding: 5px 10px;
   z-index: 99;
   background-color: #fff;
+  box-shadow: 10px 10px 16px #ddd;
 
   .logo {
     width: 50px;
@@ -66,7 +68,7 @@ body {
 
 .menu-wrapper {
   height: 100%;
-  border-right: 1px solid #ddd;
+  border-right: 1px dashed #ddd;
 }
 
 .menu-item {
