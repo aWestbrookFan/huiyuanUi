@@ -45,33 +45,23 @@ body {
     //height: 35px;
     //margin-left: 5px;
     cursor: pointer;
-    animation: logoAnimate 1.2s linear;
+    animation: logoAnimate 2s linear;
     border-radius: 5px;
   }
 
   @keyframes logoAnimate {
     0% {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
       width: 300px;
     }
-    60% {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
+    50% {
       width: 300px;
     }
     100% {
-      position: fixed;
-      top: 0;
-      left: 5px;
       width: 50px;
     }
 
   }
+
 }
 
 .menu-wrapper {
