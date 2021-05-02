@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="https://github.com/darrenfei/f-vue-ui/blob/master/packages/css/style.scss" target="_blank">
+    <a href="https://github.com/aWestbrookFan/huiyuanUi/blob/master/packages/css/style.scss" target="_blank">
       样例源码
     </a>
     <f-table

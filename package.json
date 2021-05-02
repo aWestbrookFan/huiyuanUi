@@ -2,7 +2,7 @@
   "name": "hyui",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "B17041923沈文武",
+  "author": "沈文武",
   "private": false,
   "main": "./packages/index.js",
   "scripts": {

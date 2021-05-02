@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="https://github.com/darrenfei/f-vue-ui/blob/master/src/pages/directives/index.vue" target="_blank">
+    <a href="https://github.com/aWestbrookFan/huiyuanUi/blob/master/src/pages/directives/index.vue" target="_blank">
       样例源码
     </a>
     <!--  -->
