@@ -14,7 +14,7 @@
     />
     <template v-if="label">
       {{ label }}
-    </template>
+    </template>s
   </button>
 </template>
 

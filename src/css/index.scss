@@ -75,6 +75,13 @@ body {
   overflow: hidden;
   font-weight: 600;
   font-size: 14px;
+  border-bottom: 1px #ddd dashed;
+  border-left: 1px #ddd dashed;
+  box-sizing: border-box;
+
+  &:first-child {
+    border-top: 1px #ddd dashed;
+  }
 
   .menu-item-span {
     &:hover {
