@@ -1,8 +1,8 @@
 <template>
   <div>
-    <a href="https://github.com/darrenfei/f-vue-ui/blob/master/src/pages/datepicker/index.vue" target="_blank">
-      样例源码
-    </a>
+<!--    <a href="https://github.com/darrenfei/f-vue-ui/blob/master/src/pages/datepicker/index.vue" target="_blank">-->
+<!--      样例源码-->
+<!--    </a>-->
     <h6>
       基本用法:
     </h6>
@@ -72,19 +72,20 @@
 </template>
 
 <script>
-import config from './config'
-// import {date} from 'packages/utils/date'
-export default {
-  name: 'pageDatepicker',
-  data () {
-    return {
-      config,
-      date: new Date(Date.now()),
-      min: date.getPrevDate(new Date(), 10),
-      max: date.getNextDate(new Date(), 10)
+  import config from './config'
+  import {date} from '../../../packages/utils/date'
+
+  export default {
+    name: 'pageDatepicker',
+    data() {
+      return {
+        config,
+        date: new Date(Date.now()),
+        min: date.getPrevDate(new Date(), 10),
+        max: date.getNextDate(new Date(), 10)
+      }
     }
   }
-}
 </script>
 
 <style>

@@ -38,7 +38,6 @@
         {{w}}
       </div>
     </div>
-
     <div class="f-date-picker-body">
       <div
         v-for="(d, dIdx) in currentPageDate"

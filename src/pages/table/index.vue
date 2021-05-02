@@ -10,24 +10,25 @@
       hide-bottom
       :tableData="config.settingConfig.tableData"
       :columns="config.settingConfig.columns"
+      @handleFun="handleFun"
     />
 
-    <!--  -->
-    <f-table
-      class="mt-md"
-      title="emit"
-      hide-bottom
-      :tableData="config.emitConfig.tableData"
-      :columns="config.emitConfig.columns"
-    />
-    <!--  -->
-    <f-table
-      class="mt-md"
-      title="插槽"
-      hide-bottom
-      :tableData="config.slotConfig.tableData"
-      :columns="config.slotConfig.columns"
-    />
+<!--    &lt;!&ndash;  &ndash;&gt;-->
+<!--    <f-table-->
+<!--      class="mt-md"-->
+<!--      title="emit"-->
+<!--      hide-bottom-->
+<!--      :tableData="config.emitConfig.tableData"-->
+<!--      :columns="config.emitConfig.columns"-->
+<!--    />-->
+<!--    &lt;!&ndash;  &ndash;&gt;-->
+<!--    <f-table-->
+<!--      class="mt-md"-->
+<!--      title="插槽"-->
+<!--      hide-bottom-->
+<!--      :tableData="config.slotConfig.tableData"-->
+<!--      :columns="config.slotConfig.columns"-->
+<!--    />-->
   </div>
 </template>
 
@@ -38,6 +39,11 @@ export default {
   data () {
     return {
       config
+    }
+  },
+  methods:{
+    handleFun(data){
+      console.log(Object.create(data))
     }
   }
 }

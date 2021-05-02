@@ -4,12 +4,14 @@ export default {
       {
         props: 'tableData',
         type: 'Array',
-        settings: ''
+        settings: '',
+        action:'操作1'
       },
       {
         props: 'columns',
         type: 'Array',
-        settings: 'align, width, field'
+        settings: 'align, width, field',
+        action:'操作2'
       },
       {
         props: 'noDataMsg',
@@ -54,6 +56,10 @@ export default {
       {
         name: '配置项',
         field: 'settings'
+      },
+      {
+        name: '操作',
+        field: 'action'
       }
     ]
   },
